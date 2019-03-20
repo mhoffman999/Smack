@@ -21,7 +21,9 @@ class ChatVC: UIViewController {
         //"Action" is a selector (meaning a func to be called) from the SWReveal supporting file... right-click on revealToggle to read its definition
         menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         
-        
+        //Customizing so that user can drag (pan) the screen across, then tap it to return
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
         
         
     }
