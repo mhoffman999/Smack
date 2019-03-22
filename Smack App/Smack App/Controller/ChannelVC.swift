@@ -10,6 +10,11 @@ import UIKit
 
 class ChannelVC: UIViewController {
 
+    //Outlets
+    
+    @IBOutlet weak var loginBtn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +22,13 @@ class ChannelVC: UIViewController {
         //The larger the number, the more screen is revealed
         self.revealViewController()?.rearViewRevealWidth = self.view.frame.width - 60
     }
+    
+    @IBAction func loginBtnPressed(_ sender: Any) {
+        
+        //Created a Constants file under Utilities group containing a list of segues, among other things
+        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+    }
+    
     
 
     /*
