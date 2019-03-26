@@ -18,6 +18,7 @@
 		D21A34722241B9110019BBCA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21A34702241B9100019BBCA /* SWRevealViewController.m */; };
 		D21A347722428B8F0019BBCA /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21A347622428B8F0019BBCA /* ChatVC.swift */; };
 		D21A347922428BAE0019BBCA /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21A347822428BAE0019BBCA /* ChannelVC.swift */; };
+		D2FA92382247E6820063E2DE /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA92372247E6820063E2DE /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D21A34712241B9110019BBCA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		D21A347622428B8F0019BBCA /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		D21A347822428BAE0019BBCA /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		D2FA92372247E6820063E2DE /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				D21A347622428B8F0019BBCA /* ChatVC.swift */,
 				D21A347822428BAE0019BBCA /* ChannelVC.swift */,
 				D212B3F0224582E1006247A2 /* LoginVC.swift */,
+				D2FA92372247E6820063E2DE /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				D21A347922428BAE0019BBCA /* ChannelVC.swift in Sources */,
 				D21A347722428B8F0019BBCA /* ChatVC.swift in Sources */,
+				D2FA92382247E6820063E2DE /* CreateAccountVC.swift in Sources */,
 				D212B3F1224582E2006247A2 /* LoginVC.swift in Sources */,
 				D21A345D2241ADD80019BBCA /* AppDelegate.swift in Sources */,
 				D21A34722241B9110019BBCA /* SWRevealViewController.m in Sources */,

@@ -14,6 +14,9 @@ class ChannelVC: UIViewController {
     
     @IBOutlet weak var loginBtn: UIButton!
     
+    //This unwinds from a non-adjacent VC
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {}
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
